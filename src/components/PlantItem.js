@@ -2,7 +2,7 @@ import CareScale from './CareScale'
 import '../styles/PlantItem.css'
 
 //function handleClick(name) {
-//	alert(`Vous voulez acheter 1' ${name}? SUPER!`)
+//	alert(`Vous voulez acheter 1' ${name}? SUPER (méthode OCR) !`)
 //}
 
 function PlantItem({ id, cover, name, water, light }) {
@@ -10,7 +10,7 @@ function PlantItem({ id, cover, name, water, light }) {
 		<li className='lmj-plant-item'
 			// onClick={() => handleClick}>
 			onClick={() =>
-				alert(`Vous voulez acheter 1 '${name}'? SUPER  !`)
+				alert(`Vous voulez acheter 1 '${name}'? SUPER !`)
 			}
 		>
 
